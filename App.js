@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, SafeAreaView } from 'react-native';
-import Header from "./Header";
-import Main from "./Main";
+import Header from "./src/components/Header";
+import Main from "./src/components/Main";
 
 export default function App() {
   return (

@@ -27,10 +27,10 @@ const Main = () => {
         <TouchableOpacity
            style={styles.button}
            onPress={() => {
-             // TODO - send SMS!
+             alert(formattedValue)
            }}
          >
-            <Text style={styles.buttonText}>Sign Up</Text>
+            <Text style={styles.buttonText}>Get Started</Text>
          </TouchableOpacity>
       </View>
     </View>
