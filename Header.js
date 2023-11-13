@@ -16,17 +16,14 @@ const styles = StyleSheet.create({
     height: 50,
     justifyContent: 'center',
     alignItems: 'center',
+    margin: 30,
     borderBottomWidth: 2, // Add a border at the bottom
     borderBottomColor: '#2c3e50', // Border color
   },
   logo: {
-    width: 250,
-    height: 50
-  },
-  headerText: {
-    color: '#fff',
-    fontSize: 12,
-  },
+    width: 350,
+    height: 75
+  }
 });
 
 export default Header;
