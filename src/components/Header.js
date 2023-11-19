@@ -13,10 +13,9 @@ const Header = () => {
 
 const styles = StyleSheet.create({
   header: {
-    height: 50,
     justifyContent: 'center',
     alignItems: 'center',
-    margin: 30,
+    margin: 20,
     borderBottomWidth: 2, // Add a border at the bottom
     borderBottomColor: '#2c3e50', // Border color
   },
